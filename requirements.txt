@@ -10,7 +10,7 @@ joblib==1.2.0
 macholib==1.16
 numpy==1.22.4
 progress==1.6
-pyinstaller==5.1
+pyinstaller==5.13.1
 pyinstaller-hooks-contrib==2022.7
 PySocks==1.7.1
 python-dotenv==0.20.0
@@ -26,5 +26,6 @@ texttable==1.6.4
 threadpoolctl==3.1.0
 threadsafe==1.0.0
 urllib3==1.26.9
-validators==0.20.0
+validators==0.21.0
 yattag==1.14.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
