@@ -28,3 +28,4 @@ threadsafe==1.0.0
 urllib3==1.26.9
 validators==0.20.0
 yattag==1.14.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
